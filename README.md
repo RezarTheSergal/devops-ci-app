@@ -8,3 +8,5 @@ CI: Pylint → pytest → Docker build → smoke-test → GHCR.
 - health endpoint: `/health`;
 - образ: `ghcr.io/rezarthesergal/devops-ci-app`;
 - основной workflow: `.github/workflows/ci.yml`.
+
+Эндпоинт `/health` возвращает JSON со статусом `ok`.
