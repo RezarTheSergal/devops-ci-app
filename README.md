@@ -10,3 +10,5 @@ CI: Pylint → pytest → Docker build → smoke-test → GHCR.
 - основной workflow: `.github/workflows/ci.yml`.
 
 Эндпоинт `/health` возвращает JSON со статусом `ok`.
+
+Gunicorn запускает приложение через точку входа `app.app:app`.
